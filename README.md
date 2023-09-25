@@ -19,6 +19,6 @@ yarn start
 ```
 
 ## Usage
-The program will run on commandline in terminal and
-expect to input a command one line.
+The program will run on commandline in terminal.
+
 Enter `CTRL C` to quit the app.
