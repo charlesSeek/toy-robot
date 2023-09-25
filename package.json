@@ -2,9 +2,11 @@
   "name": "toy-robot",
   "version": "1.0.0",
   "description": "toy robot code",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "ts-node src/index.ts",
+    "build": "tsc",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
